@@ -7,8 +7,10 @@ echo "In a moment you will be asked to selcect your timezone..."
 sleep 3
 sudo apt install tzdata
 dpkg-reconfigure tzdata
-sleep 3
+echo "Timezone setup!"
+sleep 5
 
+# OpenVPN Install
 echo "Installing and setting up OpenVPN..."
 sleep 2
 apt update && apt -y install ca-certificates wget net-tools gnupg
@@ -20,3 +22,5 @@ sleep .5
 sudo apt update && apt -y install openvpn-as >> /root/vpn_password.txt
 sleep .5 
 echo "OpenVPN successfully installed, you can find the password in the /root/vpn_password.txt file" 
+sleep 2
+echo "Script complete."
