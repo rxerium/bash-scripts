@@ -1,6 +1,6 @@
-# Installs and configures the tzdata package
-# OpenVPN install
-# Stores the password in plain text in the vpn_password.txt file under the root account
+# 1. Installs and configures the tzdata package
+# 2. OpenVPN install
+# 3. Stores the password in plain text in the vpn_password.txt file under the root account
 
 #!/bin/bash
 echo "In a moment you will be asked to selcect your timezone..."

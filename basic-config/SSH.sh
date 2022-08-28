@@ -1,4 +1,4 @@
-# 1. Creates SSH key / folders for the machine
+# 1. Creates SSH key / folders for the system
 # 2. Allows you to input your SSH keys
 # 3. Disables password authentication
 
