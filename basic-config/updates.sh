@@ -1,4 +1,5 @@
 # Updates and upgrades the packages on the Linux machine
+# Checks if there is a distribution update too
 
 #!/bin/bash
 echo "Script starting..."

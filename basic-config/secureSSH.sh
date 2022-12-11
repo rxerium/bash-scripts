@@ -14,6 +14,7 @@ sleep 1
 echo "Turning Off Password Authentication..."
 cd /etc/ssh
 sed -i 's/#   PasswordAuthentication yes/    PasswordAuthentication no/g' ssh_config
+sed -i 's#Include /etc/ssh/ssh_config\.d/\*\.conf##g' ssh_config && sed -i 's#Include /etc/ssh/sshd_config\.d/\*\.conf##g' sshd_config
 sleep 2
 echo "Password Authentication Disabled"
 sudo systemctl restart ssh
