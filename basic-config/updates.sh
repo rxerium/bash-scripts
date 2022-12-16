@@ -3,16 +3,17 @@
 
 #!/bin/bash
 echo "Script starting..."
-sleep 1
-echo "Updating the system..."
-sudo apt-get update
-sleep 2
-echo "Upgrading the system..."
-sudo apt-get upgrade -y
-sleep 2
-"Attempting to update your Linux distro, if possible"
-sudo apt-get dist-upgrade
-sleep 2
-echo "Upgrade complete, rebooting in 10 seconds..."
-sleep 10 
+
+# update the package list
+apt-get update
+
+# upgrade all installed packages to the latest version
+apt-get upgrade -y
+
+# install any available security updates
+apt-get dist-upgrade -y
+
+# remove any unused packages
+apt-get autoremove -y
+
 sudo reboot
