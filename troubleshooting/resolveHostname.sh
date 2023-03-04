@@ -6,9 +6,9 @@
 
 echo "Script starting..."
 sudo apt install resolvconf -y
-sudo echo "domain kifarunix.com 
+sudo echo "domain google.com
 nameserver 8.8.8.8 
-nameserver 8.8.4.4" >> /etc/resolv.conf
+nameserver 1.1.1.1" >> /etc/resolv.conf
 sudo resolvconf -u
 sudo echo "**supersede domain-name-servers 8.8.8.8, 8.8.4.4;**" >> /etc/dhcp/dhclient.conf
 echo "Script complete!"
