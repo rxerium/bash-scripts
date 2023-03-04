@@ -5,15 +5,17 @@
 echo "Script starting..."
 
 # update the package list
-apt-get update
+sudo apt-get update
 
 # upgrade all installed packages to the latest version
-apt-get upgrade -y
+sudo apt-get upgrade -y
 
 # install any available security updates
-apt-get dist-upgrade -y
+sudo apt-get dist-upgrade -y
 
 # remove any unused packages
-apt-get autoremove -y
+sudo apt-get autoremove -y
 
 sudo reboot
+
+echo "Script complete!"

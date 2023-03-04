@@ -1,7 +1,7 @@
 # Description:
 # Plex is an American streaming media service and a client–server media player platform, made by Plex, Inc. The Plex Media Server organizes video, audio, and photos from a user's collections and from online services, and streams it to the players. (Description from WIkipedia)
 
-# Website for ref: 
+# Website for reference: 
 # https://www.plex.tv
 
 #!/bin/bash
