@@ -11,5 +11,3 @@ read servername
 echo "$servername" >> /etc/hostname
 source /etc/hostname
 echo "Server name updated"
-
-
