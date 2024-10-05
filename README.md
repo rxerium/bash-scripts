@@ -22,6 +22,7 @@ You may find it useful to run scripts automatically on Linux, this is where Cron
 
 While the above example runs the script every Sunday at 2PM you can set your own Cron Job [here](https://crontab.guru/)
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /> Contributions
+# Contact
 
-As always if you find any bugs or issues with the code feel free to open a pull request! 😃
+If you have any questions feel free to reach out to me on [Signal](https://signal.me/#eu/0Qd68U1ivXNdWCF4hf70UYFo7tB0w-GQqFpYcyV6-yr4exn2SclB6bFeP7wTAxQw) or via email: rishi@rxerium.com.
+
